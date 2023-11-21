@@ -9,6 +9,9 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css"> 
 
+    <script src="scripts/mountainData.js"></script>
+    <script src="scripts/mountainsInfo.js"></script>
+
 </head>
 <body>
     <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
@@ -34,15 +37,14 @@
         </div>
       </nav>
 
-      
-    
-
-
-
-
-
-
-
+        <div class="filterContainer">
+          <h4 class="filterContent">Mountains</h4>
+          <select name="mountainList" id="mountainList" class="mountainSelect">
+            <option selected disabled>Select Mountain</option>
+          </select>
+        </div>
+        <hr class="mountainHr">
+        <div id="mountainContent"></div>
 
 
       <footer>

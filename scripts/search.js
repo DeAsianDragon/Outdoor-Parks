@@ -1,4 +1,5 @@
-document.addEventListener("DOMContentLoaded", () => {
+document.addEventListener ("DOMContentLoaded", () => {
+
     populateLocations();
     populateParkTypes();
   
@@ -54,7 +55,7 @@ document.addEventListener("DOMContentLoaded", () => {
   };
   
   const displayNoResultsMessage = () => {
-    const parksContainer = document.querySelector("#content");
+    const parksContainer = document.querySelector("#parksContent");
     parksContainer.innerHTML = "";
   
     const noResultsMessage = document.createElement("p");
@@ -66,7 +67,7 @@ document.addEventListener("DOMContentLoaded", () => {
   };
   
   const displayAllParks = (nationalParksArray) => {
-    const parksContainer = document.querySelector("#content");
+    const parksContainer = document.querySelector("#parksContent");
     parksContainer.innerHTML = "";
   
     nationalParksArray.forEach((park) => {
