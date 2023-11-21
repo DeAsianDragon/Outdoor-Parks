@@ -9,6 +9,12 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css"> 
 
+    <script src="scripts/locationData.js"></script>
+    <script src="scripts/nationalParkData.js"></script>
+    <script src="scripts/parkTypeData.js"></script>
+    <script src="scripts/nationalParks.js"></script>
+    <script src="scripts/search.js"></script>
+
 </head>
 <body>
     <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
@@ -33,7 +39,25 @@
           </div>
         </div>
       </nav>
-    
+      <div class="filterContainer">
+        <h4>Find The Perfect Park</h4>
+        <div class="filter-box">
+        <div class="selectContainer">
+          <select name="locationFilter" id="locationList" class="">
+            <option selected disabled>Select A State</option>
+            <option>Show All</option>
+          </select>
+        </div>
+        <div class="selectContainer">
+          <select name="parkTypeFilter" id="parkTypeList" class="">
+            <option selected disabled>Select A Type</option>
+            <option>Show All</option>
+          </select>
+        </div>
+      </div>
+      </div>
+      <hr class="parkHr">
+      <div id="content"></div>
 
 
 
