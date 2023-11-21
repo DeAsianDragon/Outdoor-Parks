@@ -1,13 +1,7 @@
-/*General Stuff*/
+/*Foot Head*/
 
 .navbar-nav .nav-item .nav-link {
     font-size: 16px;
-}
-
-
-body {
-    background-color: rgb(201, 213, 255);
-    margin: 0;
 }
 
 footer {
@@ -39,3 +33,46 @@ footer li {
     display: inline;
     margin-right: 10px;
 }
+
+/*General Body*/
+
+body {
+    background-color: rgb(201, 213, 255);
+    margin: 0;
+}
+
+#headImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50vw;
+}
+
+h2 {
+    text-align: center;
+  }
+
+  .card {
+    display: flex;
+    max-width: 600px;
+    margin: 20px auto;
+    overflow: hidden;
+  }
+
+  .card-content {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+
+  h3, p {
+    margin: 0;
+    text-align: center;
+  }
+
+  .card-content img {
+    width: 40%;
+    object-fit: cover;
+    margin-right: 20px;
+  }
