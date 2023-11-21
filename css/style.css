@@ -48,6 +48,13 @@ body {
     flex-direction: column
 }
 
+h1 {
+text-align: center;
+font-family: 'Franklin Gothic Medium';
+font-style: italic;
+font-size: 45px;
+}
+
 #headImage {
     display: block;
     margin-left: auto;
@@ -73,8 +80,13 @@ h2 {
     box-sizing: border-box;
   }
 
-  h3, p {
-    margin: 0;
+#homeCardImage {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ h3 {
+    margin: 5px;
     text-align: center;
   }
 
@@ -84,10 +96,21 @@ h2 {
     margin-right: 20px;
   }
 
+  select {
+    display: flex;
+    margin-left: 43vw;
+    width: 15%;
+    margin-top: 10px;
+    text-align: center;
+
+  }
+
   /*Displaying Info*/
 
 .mountainContainer {
-background-color: rgb(174, 241, 219);
+    background-color: rgb(174, 241, 219);
+    border: 35px solid rgb(174, 241, 219) ;
+    font-size: 20px;
 }
 
 .mountainContainer img {
@@ -98,9 +121,12 @@ background-color: rgb(174, 241, 219);
 
 .parkContainer {
     background-color: rgb(174, 241, 219);  
-    border: 1px solid ;
-    margin: 10px;
+    border: 5px solid;
+    margin: 20px;
+    font-size: 20px;
+    text-align: center;
 }
+
 
 h4 {
     text-align: center;
